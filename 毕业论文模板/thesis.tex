@@ -1,0 +1,59 @@
+\documentclass{ECNU}
+\usepackage{stmaryrd}
+\usepackage[lined,boxed,commentsnumbered,ruled]{algorithm2e}
+\usepackage{threeparttable}
+\usepackage{subfigure}
+\usepackage{algpseudocode}
+\usepackage{setspace}
+\usepackage{rotating}
+\usepackage{framed}
+\usepackage{hyperref}
+
+\newcommand\func[1]{{\it #1}}
+\newcommand\out[1]{{\zihao{5}\texttt{#1}}}
+% 定义所有的eps文件在 figures 子目录下
+%\graphicspath{{figures/}}
+\begin{document}
+
+
+\input{chapter/cover} % 中英文封面内容
+\makecover
+\frontmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 前言部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+   % 摘要
+  \include{chapter/abstract}
+  % 目录
+  \tableofcontents
+  % 表格目录
+  \listoftables
+   %插图目录
+  \listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+ \include{chapter/intro_2}%第一章 绪论
+ \include{chapter/chap1}%第二章
+  \include{chapter/chap2}%第三章
+ \include{chapter/chap3}%第四章
+  \include{chapter/chap4}%第五章
+ \include{chapter/chap5}%第六章
+  \include{chapter/chap6}%第七章
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+
+  % 参考文献
+\bibliographystyle{ecnubib}
+\bibliography{liucong}
+   %\include{chapter/bib}
+
+  % 致谢
+  \include{chapter/thanks}
+  % 发表文章目录和科研课题
+  \include{chapter/pub}
+\end{document}
