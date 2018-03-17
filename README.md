@@ -23,6 +23,27 @@ pdflatex 编译运行，编码问题，用 Notepad++ 改为 UTF8 编码后编译
 4. nju-thesis-master
    不知道南大学生怎么用的。。。
 
+## 第一次更新：踩坑记
+2018.03.17
+
+准备通过 bibtex 来生成 word 版本的引用，毕业论文需要 GB/T7714-2015 格式:
+
+1. GBT7714-2005-BibTeX-Style
+https://github.com/Haixing-Hu/GBT7714-2005-BibTeX-Style
+
+  - 使用
+ 
+  ```
+  \bibliographystyle{gbt7714-2005}
+  ```
+
+2. GB/T 7714-2015 BibTeX Style
+https://github.com/zepinglee/gbt7714-bibtex-style.git
+
+
+单独把 bst 放到上面的仓库中。。。
+
+没踩坑。。欢迎踩完坑的来补一下~~~
 
 
 ## 参考

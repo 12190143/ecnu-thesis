@@ -5,9 +5,11 @@
 *.log
 *.out
 *.bak
-*.aux
 *.synctex.gz
 
 
 
 
+/GBT7714-2005-BibTeX-Style-master/
+/gbt7714-bibtex-style-master/
+*.zip
